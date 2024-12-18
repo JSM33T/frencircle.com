@@ -1,0 +1,7 @@
+asl-google-signin-button {
+    background-color: #000; /* Button background */
+    color: #fff;           /* Text color */
+    border-radius: 50px;   /* Example for 'pill' shape */
+    border: none;          /* Remove border if needed */
+  }
+  
