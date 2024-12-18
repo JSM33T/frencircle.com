@@ -6,7 +6,6 @@ from utilities import copy_files, delete_folders, execute
 
 main_dir = "d:/frencircle"
 ui_path = "d:/frencircle/UI"
-cdn_path = "d:/frencircle/CDN"
 api_path = "d:/frencircle/API"
 release_path = "d:/releases/frencircle"
 
@@ -67,7 +66,6 @@ def display_menu():
 
             print("copying to release directory.")
             copy_files(ui_path +"/dist/ui/browser", release_path + "/wwwroot")
-            copy_files(cdn_path, release_path + "/wwwroot")
             copy_files(api_path + "/API.Base/bin/Release/net8.0/win-x64/publish",release_path)
 
             print("creating ftp connection.")
