@@ -60,6 +60,7 @@ builder.Services.AddScoped<IDataService>(provider =>
 
 //Register repositories
 builder.Services.AddScoped<IMessageRepository, MessageRepository>();
+builder.Services.AddScoped<IContentRepository, ContentRepository>();
 
 //Register services
 builder.Services.AddScoped<ICommonService, CommonService>();

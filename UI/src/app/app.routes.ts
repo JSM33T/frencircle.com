@@ -20,5 +20,10 @@ export const routes: Routes = [
     {
 		path: 'account/login',
 		loadComponent: () => import('./sections/account/login/login.component').then((m) => m.LoginComponent),
-	}
+	},
+    {
+		path: 'music/:slug',
+		loadComponent: () => import('./sections/music/album/album.component').then((m) => m.AlbumComponent),
+	},
+
 ];

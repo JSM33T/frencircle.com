@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
         public int FrenId { get; set; } = 0;
-        public string Origin { get; set; }
+        public string Origin { get; set; } = "na";
         public required string Message { get; set; }
     }
 }
